@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<!-- БЭМ - блок-элемент-модификатор -->
+
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="header__nav__list">
+        <li class="header__nav__list__item">
+          <a href="#" class="header__nav__list__item__link">About us</a>
+        </li>
+        <li class="header__nav__list__item">
+          <a href="#" class="header__nav__list__item__link">Careers</a>
+        </li>
+        <li class="header__nav__list__item">
+          <a href="#" class="header__nav__list__item__link">Resources</a>
+        </li>
+        <li class="header__nav__list__item">
+          <a href="#" class="header__nav__list__item__link">Login</a>
+        </li>
+        <li class="header__nav__list__item">
+          <a href="#" class="header__nav__list__item__link header__nav__list__item__link_button">
+            Get access
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="hero__container">
+      <h2 class="hero__title">
+        Where creators
+        <br />
+        do business
+      </h2>
+      <p class="hero__subtitle">
+        Passionfroot lets you handle sponsorships, collaboration requests,
+        bookings, and payments – in one single place. Stop feeling overwhelmed
+        by the opportunities. Start seizing them.
+      </p>
+      <button class="hero__button">Get access</button>
+    </div>
+  </section>
+
+  <!-- Creators -->
+  <section class="creators">
+    <div class="creators__container">
+      <h2 class="creators__title">
+        For <br />
+        all creators
+      </h2>
+
+      <!-- Creators list -->
+      <ul class="creators__list">
+        <li class="creators__list__item">
+          <a href="" class="creators__list__item__link">Podcasters</a>
+        </li>
+        <li class="creators__list__item">
+          <a href="" class="creators__list__item__link">Youtubers</a>
+        </li>
+        <li class="creators__list__item">
+          <a href="" class="creators__list__item__link">Newsletter Writers</a>
+        </li>
+        <li class="creators__list__item">
+          <a href="" class="creators__list__item__link">Media companies</a>
+        </li>
+        <li class="creators__list__item">
+          <a href="" class="creators__list__item__link">TikTokers</a>
+        </li>
+        <li class="creators__list__item">
+          <a href="" class="creators__list__item__link">Influencers</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Cons list -->
+  <section class="cons">
+    <div class="cons__container">
+      <!-- list of cons -->
+      <div class="cons__list__container">
+        <h4 class="cons__list__heading">
+          Is running the show running <br />
+          you down, too?
+        </h4>
+        <ul class="cons__list">
+          <li class="cons__list__item">
+            <img src="assets\icons\pink-cross.svg.svg">
+            <p>You waste 70% of time on admin work</p>
+          </li>
+          <li class="cons__list__item">
+            <img src="assets\icons\pink-cross.svg.svg">
+            <p>Juggling 10+ tools to handle requests and payments</p>
+          </li>
+          <li class="cons__list__item">
+            <img src="assets\icons\pink-cross.svg.svg">
+            <p>Losing track, details and your spark due to constant back and
+              forth</p>
+          </li>
+        </ul>
+      </div>
+
+      <!-- image -->
+      <img src="./assets/img/sitting-lemon.png" alt="" class="cons__image" />
+    </div>
+  </section>
+
+  <!-- Pros list -->
+  <section class="pros">
+    <div class="pros__container">
+      <!-- list of pros -->
+      <div class="pros__list__container">
+        <h4 class="pros__list__heading">Get over the overwhelm</h4>
+        <ul class="pros__list">
+          <li class="pros__list__item">
+            <img src="assets\icons\green-check.svg.svg">
+            <p>Free up your time (and mind) to create more</p>
+          </li>
+          <li class="pros__list__item">
+            <img src="assets\icons\green-check.svg.svg">
+            <p>Handle all partnerships in one place</p>
+          </li>
+          <li class="pros__list__item">
+            <img src="assets\icons\green-check.svg.svg">
+            <p>Streamline your workflows to save time</p>
+          </li>
+        </ul>
+      </div>
+
+      <!-- image -->
+      <img src="./assets/img/sitting-lemon.png" alt="" class="pros__image" />
+    </div>
+  </section>
+
+  <!-- Pros list -->
+  <section class="content">
+      <div class="content__heading">
+        Content that gets your creative juices going
+      </div>
+      <div class="content__nav">
+      <nav class="content__nav">
+        <ul class="content__nav__list">
+          <li class="content__nav__list__item">
+            <a href="#" class="content__nav__list__item__link">Newsletter</a>
+          </li>
+          <li class="content__nav__list__item">
+            <a href="#" class="content__nav__list__item__link">Podcasts</a>
+          </li>
+          <li class="content__nav__list__item">
+            <a href="#" class="content__nav__list__item__link">Blog</a>
+          </li>
+          <li class="content__nav__list__item">
+            <a href="#" class="content__nav__list__item__link">Guides</a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+      <div class="content__boxes">
+        <div class="box pink"><p class="content__box__date">SEPTEMBER 16, 2022 <span class="dot">.</span> 3 MIN READ </p><p class="content__box__text">You're in the wrong lane</p><hr class="line"></div>
+        <div class="box yellow"><p class="content__box__date">JUNE 3, 2022 <span class="dot">.</span> 3 MIN READ </p><p class="content__box__text">The power of a weekly review</p><hr class="line"></div>
+        <div class="box blue"><p class="content__box__date">MAY 13, 2022 <span class="dot">.</span> 8 MIN READ</p><p class="content__box__text">How to ask better questions</p><hr class="line"></div>
+      </div>
+  </section>
+
+</body>
+
+</html>

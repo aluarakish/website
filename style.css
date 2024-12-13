@@ -1,0 +1,267 @@
+body {
+  font-family: "Roboto";
+}
+
+.header__nav__list__item {
+  text-align: center;
+  font-size: 16px;
+}
+
+.header__nav__list__item__link_button {
+  border: 2px solid #000000;
+  /* Define the border */
+  box-shadow: 2px 3px 10px #000000;
+  /* Adds a shadow */
+  border-radius: 8px;
+  /* Optional: makes corners rounded */
+}
+
+.header__nav__list__item__link {
+  padding: 0.5em 2em;
+  /* Space between content and border */
+}
+
+.header__nav__list {
+  display: flex;
+  /* напрямую связано с display flex и без него не работает */
+  justify-content: right;
+  /* напрямую связано с display flex и без него не работает */
+  flex-direction: row;
+  /* напрямую связано с display flex и без него не работает */
+  padding: 2em 1em;
+
+}
+
+.header__nav {
+  background-color: #F5F3EA;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  margin: 10em 0;
+}
+
+.hero__title {
+  width: 690px;
+  color: #1b1c1d;
+  text-align: center;
+  font-size: 96px;
+  font-weight: 400;
+  letter-spacing: 1.14px;
+}
+
+.hero__subtitle {
+  width: 600px;
+  color: #1b1c1d;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hero__button {
+  background-color: #FF9966;
+  font-size: 16px;
+  padding: 0.5em 2em;
+  border: 2px solid #000000;
+  /* Define the border */
+  box-shadow: 2px 3px 10px #000000;
+  /* Adds a shadow */
+  border-radius: 8px;
+  /* Optional: makes corners rounded */
+}
+
+.creators__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+}
+
+.creators__title {
+  color: #1b1c1d;
+  text-align: center;
+  font-size: 96px;
+}
+
+.creators__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.creators__list__item {
+  font-size: 56px;
+}
+
+.cons__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cons__list__container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  gap: 20px;
+}
+
+.cons__list__heading {
+  font-size: 40px;
+}
+
+.cons__list {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 20px;
+  justify-content: center
+}
+
+.cons__list__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cons {
+  background-color: #F5F3EA;
+}
+
+.pros__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pros__list__container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  gap: 20px;
+}
+
+.pros__list__heading {
+  font-size: 40px;
+}
+
+.pros__list {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 20px;
+  justify-content: center
+}
+
+.pros__list__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pros {
+  background-color: #F5F3EA;
+}
+
+.content {
+  display: flex;
+  margin-left: 40px;
+  flex-direction: column;
+}
+
+.content__heading {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.content__nav__list {
+  display: flex;
+  /* напрямую связано с display flex и без него не работает */
+  justify-content: left;
+  /* напрямую связано с display flex и без него не работает */
+  flex-direction: row;
+  /* напрямую связано с display flex и без него не работает */
+}
+
+.content__nav__list__item {
+  list-style: none; /* Убираем маркеры списка */
+  text-align: center;
+  font-size: 14px;
+  border: 2px solid lightgray;
+  /* Define the border */
+  border-radius: 8px;
+  /* Optional: makes corners rounded */
+  margin-right: 10px;
+}
+
+.content__nav__list__item__link {
+  text-decoration: none; /* Убираем подчеркивание с ссылок */
+  color: #000; /* Цвет ссылок */
+  padding: 0.5em 2em;
+  /* Space between content and border */
+}
+
+.content__boxes {
+  display: flex; /* Используем Flexbox для размещения элементов в ряд */
+  gap: 40px; /* Расстояние между коробочками */
+  margin-top: 60px;;
+  margin-bottom: 60px;
+}
+
+/* Общие стили для коробочек */
+.box {
+  width: 470px; /* Ширина коробочек */
+  height: 470px; /* Высота коробочек */
+  border-radius: 20px; /* Закругленные углы */
+}
+
+/* Цвета для коробочек */
+.pink {
+  background-color: lightpink;
+}
+
+.yellow {
+  background-color: lemonchiffon;
+  
+}
+
+.blue {
+  background-color: skyblue;
+}
+
+.content__box__text{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.line{
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: gray;
+}
+
+.content__box__date{
+  color:black;
+  font-size: 14px;
+  margin-top: 300px;
+  margin-left: 30px;
+ /* Используем inline-flex для выравнивания */
+}
+
+
+.dot {
+  font-size: 24px; /* Размер точки */
+  margin: 0 8px;  /* Отступы вокруг точки */
+}
+
